@@ -11,6 +11,7 @@ function App() {
       <hr />
       <Container className='border p-4'>
         <Formulario></Formulario>
+        <hr />
       </Container>
     </>
   )
