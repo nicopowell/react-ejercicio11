@@ -3,7 +3,7 @@ import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import Titulo from "./components/Titulo";
-import Formulario from "./components/formulario";
+import Formulario from "./components/Formulario";
 import ListaNoticias from "./components/ListaNoticias";
 
 function App() {
