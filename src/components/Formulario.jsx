@@ -19,7 +19,7 @@ const Formulario = ({consultarAPI}) => {
         <Form.Label column sm="2">
           Buscar por categoria
         </Form.Label>
-        <Col sm="10">
+        <Col sm="10" className="d-flex align-items-center">
           <Form.Select onChange={handleOptionChange} value={categoria}>
             <option>Opciones</option>
             <option value="science">Ciencia</option>
